@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <div class="row">
+      <div class="col col-lg-4" *ngFor="let item of district">
+  <div class="card" style="width: 18rem; margin-bottom: 35px;">
+      <img width="auto" height="200px" src="{{item.image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{item.District}}</h5>
+        <p class="card-text" >{{item.description}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+  </div>
+
+</div>
